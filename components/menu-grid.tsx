@@ -44,7 +44,7 @@ export function MenuGrid({ categories, menuItems }: MenuGridProps) {
     const [isCartOpen, setIsCartOpen] = useState(false)
 
     const filteredItems = selectedCategory
-        ? menuItems.filter((item) => item.categoryId === selectedCategory && item.available)
+        ? menuItems.filter((item) => item.category.id === selectedCategory && item.available)
         : menuItems.filter((item) => item.available)
 
     const addToCart = (item: MenuItem) => {

@@ -6,7 +6,7 @@ const stripeSecretKey = process.env.STRIPE_SECRET_KEY || 'sk_test_demo_key'
 export const stripe = stripeSecretKey.includes('demo')
     ? null
     : new Stripe(stripeSecretKey, {
-        apiVersion: '2024-12-18.acacia',
+        apiVersion: '2025-12-15.clover',
         typescript: true,
     })
 
