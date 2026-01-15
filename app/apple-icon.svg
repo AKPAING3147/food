@@ -1,0 +1,25 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#gradient)"/>
+  
+  <!-- Burger Icon -->
+  <!-- Top Bun -->
+  <path d="M45 62C45 53.5 53.5 45 68 45H112C126.5 45 135 53.5 135 62C135 64.5 132 67.5 127.5 67.5H52.5C48 67.5 45 64.5 45 62Z" fill="white" opacity="0.95"/>
+  
+  <!-- Arrow/Speed Lines -->
+  <path d="M62 90L96 90L84 78" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  
+  <!-- Patty -->
+  <rect x="50" y="96" width="80" height="12" rx="6" fill="white" opacity="0.95"/>
+  
+  <!-- Bottom Bun -->
+  <path d="M45 124C45 121 48 118 52.5 118H127.5C132 118 135 121 135 124C135 132.5 126.5 141 112 141H68C53.5 141 45 132.5 45 124Z" fill="white" opacity="0.95"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+</svg>
